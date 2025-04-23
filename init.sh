@@ -1,0 +1,1 @@
+docker compose up && go cmd/main.go
