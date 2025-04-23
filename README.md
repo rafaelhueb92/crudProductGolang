@@ -8,11 +8,13 @@ A simple RESTful API for managing products, built with [Go Fiber](https://gofibe
 - Create new products
 - List all products
 - Middleware example for `/api` routes
+- MongoDB in Docker Compose
 
 ## Prerequisites
 
 - [Go](https://go.dev/) 1.18 or newer
 - MongoDB (if your handlers use it for storage)
+- Docker installed
 
 ## Getting Started
 
@@ -29,7 +31,13 @@ cd productsGo
 go mod tidy
 ```
 
-### 3. Run the API
+### 3. Run Docker Compose
+
+```bash
+docker compose up
+```
+
+### 4. Run the API
 
 ```bash
 go run main.go
