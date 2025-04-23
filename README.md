@@ -1,6 +1,4 @@
----
-
-```ProductsGo API
+````ProductsGo API
 
 A simple RESTful API for managing products, built with [Go Fiber](https://gofiber.io/).
 
@@ -23,7 +21,7 @@ A simple RESTful API for managing products, built with [Go Fiber](https://gofibe
 ```bash
 git clone https://github.com/yourusername/productsGo.git
 cd productsGo
-```
+````
 
 ### 2. Install dependencies
 
@@ -41,11 +39,11 @@ The API will be available at [http://localhost:9000](http://localhost:9000).
 
 ## API Endpoints
 
-| Method | Endpoint          | Description                |
-|--------|-------------------|----------------------------|
-| GET    | `/healthcheck`    | Health check endpoint      |
-| POST   | `/api/products`   | Create a new product       |
-| GET    | `/api/products`   | List all products          |
+| Method | Endpoint        | Description           |
+| ------ | --------------- | --------------------- |
+| GET    | `/healthcheck`  | Health check endpoint |
+| POST   | `/api/products` | Create a new product  |
+| GET    | `/api/products` | List all products     |
 
 ## Example Requests
 
@@ -87,12 +85,3 @@ All `/api` routes use a middleware that prints a message to the console for ever
 ## License
 
 MIT
-
----
-
-Happy coding!
-
-```
-
----
-```
