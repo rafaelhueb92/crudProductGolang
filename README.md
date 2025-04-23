@@ -1,4 +1,4 @@
-````ProductsGo API
+# ProductsGo API
 
 A simple RESTful API for managing products, built with [Go Fiber](https://gofiber.io/).
 
@@ -21,7 +21,7 @@ A simple RESTful API for managing products, built with [Go Fiber](https://gofibe
 ```bash
 git clone https://github.com/yourusername/productsGo.git
 cd productsGo
-````
+```
 
 ### 2. Install dependencies
 
