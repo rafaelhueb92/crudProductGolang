@@ -1,7 +1,6 @@
 ---
 
-```markdown
-# ProductsGo API
+```ProductsGo API
 
 A simple RESTful API for managing products, built with [Go Fiber](https://gofiber.io/).
 
